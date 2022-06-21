@@ -1,0 +1,120 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Phone for single Roma",
+            "article": "252998",
+            "price": 899990,
+            "year": "2021",
+            "diagonal": "6.7",
+            "discount": 5,
+            "credit": true,
+            "resolution": "2778×1284",
+            "matrix": "Super Retina XDR",
+            "hz": "120",
+            "ram": "6",
+            "hard": "256",
+            "website": "https://www.apple.com/iphone-13-pro/",
+            "images": [
+                {
+                    "first": "https://www.technodom.kz/_next/image?url=https%3A%2F%2Fapi.technodom.kz%2Ff3%2Fapi%2Fv1%2Fimages%2F800%2F800%2F252998_1.jpg&w=828&q=85",
+                    "second": "https://www.technodom.kz/_next/image?url=https%3A%2F%2Fapi.technodom.kz%2Ff3%2Fapi%2Fv1%2Fimages%2F800%2F800%2F252998_2.jpg&w=828&q=85",
+                    "third": "https://www.technodom.kz/_next/image?url=https%3A%2F%2Fapi.technodom.kz%2Ff3%2Fapi%2Fv1%2Fimages%2F800%2F800%2F252998_3.jpg&w=828&q=85"
+                }
+            ],
+            "reviews": [
+                {
+                    "name": "Roma",
+                    "stars": 1,
+                    "likes": 3,
+                    "dislikes": 15,
+                    "review": "Слишком дешево",
+                    "date": "31.03.2022"
+                },
+                {
+                    "name": "Sanzhar",
+                    "stars": 3,
+                    "likes": 15,
+                    "dislikes": 3,
+                    "review": "***** *****",
+                    "date": "31.03.2022"
+                },
+                {
+                    "name": "Aruzhan",
+                    "stars": 2,
+                    "likes": 90,
+                    "dislikes": 0,
+                    "review": "Хочу питсу",
+                    "date": "31.03.2022"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Смартфон Apple iPhone 13 Pro Max 256GB Sierra Blue",
+            "article": "252998",
+            "price": 899990,
+            "year": "2021",
+            "diagonal": "6.7",
+            "discount": 5,
+            "credit": true,
+            "resolution": "2778×1284",
+            "matrix": "Super Retina XDR",
+            "hz": "120",
+            "ram": "6",
+            "hard": "256",
+            "website": "https://www.apple.com/iphone-13-pro/",
+            "images": [
+                {
+                    "first": "https://www.technodom.kz/_next/image?url=https%3A%2F%2Fapi.technodom.kz%2Ff3%2Fapi%2Fv1%2Fimages%2F800%2F800%2F252998_1.jpg&w=828&q=85",
+                    "second": "https://www.technodom.kz/_next/image?url=https%3A%2F%2Fapi.technodom.kz%2Ff3%2Fapi%2Fv1%2Fimages%2F800%2F800%2F252998_2.jpg&w=828&q=85",
+                    "third": "https://www.technodom.kz/_next/image?url=https%3A%2F%2Fapi.technodom.kz%2Ff3%2Fapi%2Fv1%2Fimages%2F800%2F800%2F252998_3.jpg&w=828&q=85"
+                }
+            ],
+            "reviews": [
+                {
+                    "name": "Roma",
+                    "stars": 1,
+                    "likes": 3,
+                    "dislikes": 15,
+                    "review": "Слишком дешево",
+                    "date": "31.03.2022"
+                },
+                {
+                    "name": "Sanzhar",
+                    "stars": 3,
+                    "likes": 15,
+                    "dislikes": 3,
+                    "review": "***** *****",
+                    "date": "31.03.2022"
+                },
+                {
+                    "name": "Aruzhan",
+                    "stars": 2,
+                    "likes": 90,
+                    "dislikes": 0,
+                    "review": "Хочу питсу",
+                    "date": "31.03.2022"
+                }
+            ]
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "Roma",
+            "surname": "Kachanov",
+            "email": "singleRoma99@yahoo.com",
+            "phone": 87777777777,
+            "password": "toooooRich"
+        },
+        {
+            "id": 2,
+            "name": "Olzhas",
+            "surname": "Alidarov",
+            "email": "oljasalidarov@gmail.com",
+            "phone": 87472367503,
+            "password": "123"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('http://fonts.cdnfonts.com/css/museo-sans-cyrl');
+
+* {
+    transition: all 0.3s;
+}
+
+body {
+    background: #f7f7f7;
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+}
+
+.singleBlock {
+    width: 15.5%;
+}
+
+.discount {
+    position: absolute;
+    left: 3%;
+    top: 3%;
+}
+
+.img-block img {
+    border: 1px solid #d9dcde;
+}
+
+.carousel-indicators {
+    background: rgba(0, 0, 0, 0.7);
+    width: fit-content;
+    margin: 0;
+    left: 50%;
+    bottom: 1rem;
+    transform: translateX(-50%);
+    padding: 3px;
+    border-radius: 90px;
+}
+
+.carousel-indicators button {
+    width: 4px !important;
+    height: 4px !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-radius: 100%;
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+}
+
+.carousel-indicators button.active {
+    width: 12px !important;
+    border-radius: 90px;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 90%);
+}
+
+.carousel-control-next, 
+.carousel-control-prev {
+    width: fit-content;
+    height: fit-content;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 100%;
+    color: #000;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+}
+
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+    color: #000;
+}
+
+.carousel:hover .carousel-control-next,
+.carousel:hover .carousel-control-prev {
+    opacity: 1;
+}
+
+.carousel-control-next {
+    right: 1rem;
+}
+
+.carousel-control-prev {
+    left: 1rem;
+}   
+
+.cart-list {
+    position: absolute;
+    z-index: 1000;
+    top: 100%;
+    right: 0;
+    width: 400px;
+    height: auto;
+    background: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.counter {
+    position: absolute;
+    right: 6px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #2196f3;
+    color: #fff;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+}
